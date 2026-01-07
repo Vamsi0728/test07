@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment | BookMyShow</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: #f5f5f5;
+      }
+
+      /* Header */
+      .header {
+        background: #1f2533;
+        color: white;
+        padding: 15px 30px;
+      }
+
+      .logo {
+        color: #f84464;
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      /* Main container */
+      .container {
+        width: 450px;
+        background: white;
+        margin: 60px auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Payment option card */
+      .option {
+        border: 1px solid #e5e7eb;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .option:hover {
+        border-color: #f84464;
+        background: #fff5f7;
+      }
+
+      /* Small text */
+      .sub {
+        font-size: 14px;
+        color: #6b7280;
+        margin-top: 5px;
+      }
+
+      /* Pay button */
+      .btn {
+        width: 100%;
+        background: #f84464;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      .btn:hover {
+        background: #e11d48;
+      }
+
+      /* Amount */
+      .amount {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .amount h1 {
+        color: #16a34a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="logo">bookmyshow</div>
+    </div>
+
+    <!-- PAYMENT BOX -->
+    <div class="container">
+      <div class="amount">
+        <h3>Total Amount</h3>
+        <h1>₹200</h1>
+      </div>
+
+      <!-- UPI -->
+      <div class="option">
+        <div>
+          UPI
+          <div class="sub">Google Pay, PhonePe, Paytm, BHIM</div>
+        </div>
+        <span>›</span>
+      </div>
+
+      <!-- Internet Banking -->
+      <div class="option">
+        <div>
+          Internet Banking
+          <div class="sub">All major banks supported</div>
+        </div>
+        <span>›</span>
+      </div>
+
+      <!-- Credit Card -->
+      <div class="option">
+        <div>
+          Credit Card
+          <div class="sub">Visa, MasterCard, Amex</div>
+        </div>
+        <span>›</span>
+      </div>
+
+      <!-- Debit Card -->
+      <div class="option">
+        <div>
+          Debit Card
+          <div class="sub">All Indian banks</div>
+        </div>
+        <span>›</span>
+      </div>
+
+      <!-- PAY BUTTON -->
+      <button class="btn" onclick="location.href='success.html'">
+        Pay ₹200
+      </button>
+    </div>
+  </body>
+</html>

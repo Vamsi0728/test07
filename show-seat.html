@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shows & Seats | BookMyShow</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+      }
+      body {
+        background: #f5f5f5;
+      }
+      .header {
+        background: #1f2533;
+        color: white;
+        padding: 15px 30px;
+      }
+      .logo {
+        color: #f84464;
+        font-size: 26px;
+        font-weight: bold;
+      }
+      .container {
+        width: 480px;
+        margin: 60px auto;
+        background: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      }
+      .time {
+        display: inline-block;
+        padding: 8px 14px;
+        margin: 6px;
+        border: 1px solid #22c55e;
+        border-radius: 5px;
+        color: #22c55e;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .time:hover {
+        background: #22c55e;
+        color: white;
+      }
+      .seat {
+        display: inline-block;
+        width: 45px;
+        padding: 10px;
+        margin: 6px;
+        background: #e5e7eb;
+        border-radius: 5px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .seat:hover {
+        background: #22c55e;
+        color: white;
+      }
+      .btn {
+        width: 100%;
+        background: #f84464;
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"><div class="logo">bookmyshow</div></div>
+
+    <div class="container">
+      <h2>Jagadamba Theatre</h2>
+
+      <h3>Show Timings</h3>
+      <div class="time">10:30 AM</div>
+      <div class="time">2:00 PM</div>
+      <div class="time">6:30 PM</div>
+      <div class="time">9:30 PM</div>
+
+      <hr style="margin: 20px 0" />
+
+      <h3>Select Seats</h3>
+      <span class="seat">A1</span>
+      <span class="seat">A2</span>
+      <span class="seat">A3</span>
+      <span class="seat">A4</span>
+
+      <button class="btn" onclick="location.href='login.html'">Continue</button>
+    </div>
+  </body>
+</html>
