@@ -1,8 +1,0 @@
-public class ShortArrayExample {
-    public static void main(String[] args) {
-        short[] shortArray = {100, 200, 300, 400, 500};
-        for (short s : shortArray) {
-            System.out.println(s);
-        }
-    }
-}
